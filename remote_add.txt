@@ -4,7 +4,7 @@ the steps involved in the following are
 
 1.go to github repository and get the link of the repo
 2.use the command 
-	git remote add https://github.com/HustlerTwins/Learn_Git.git
+	git remote add origin https://github.com/HustlerTwins/Learn_Git.git
   on your local folder using bash
 3.make any necessary changes - like im doing here 
 4. to make the push,use the command
