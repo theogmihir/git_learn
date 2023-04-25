@@ -8,4 +8,4 @@ the steps involved in the following are
   on your local folder using bash
 3.make any necessary changes - like im doing here 
 4. to make the push,use the command
-	push origin master
+	git push origin master
