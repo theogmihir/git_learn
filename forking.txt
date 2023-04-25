@@ -1,0 +1,21 @@
+to work with a public repository , do the following
+
+1.fork the repository,make your own version of the repo
+	so instead of originaluser\project , we use MihirSaiDudekula\project
+
+2.copy the local repo link 
+
+3.using the command 
+	git clone <url>
+4.while your local repo is "origin" , the actual repo from where we forked if "upstream"
+
+5.all necessary changes are made in our local repo
+
+6.create a new branch with a name other than master/main and commit changes
+	git branch <newname>
+	git checkout <newname>
+	git add .
+	git commit -m "coming from fork"
+
+7.lastly 
+	git push origin <newname>
