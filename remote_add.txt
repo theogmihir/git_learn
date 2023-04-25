@@ -9,3 +9,6 @@ the steps involved in the following are
 3.make any necessary changes - like im doing here 
 4. to make the push,use the command
 	git push origin master
+
+	to know more info about the remote origin ,use:
+		git remote -v
