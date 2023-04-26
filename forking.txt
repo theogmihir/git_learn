@@ -19,3 +19,8 @@ to work with a public repository , do the following
 
 7.lastly 
 	git push origin <newname>
+
+8.now from next time , when you make any changes,dont make it in this branch
+  1 branch is for only 1 pull request
+  so exit the branch using git checkout
+  create a new branch and start making changes (follow same steps)
