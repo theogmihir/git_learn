@@ -24,3 +24,8 @@ to work with a public repository , do the following
   1 branch is for only 1 pull request
   so exit the branch using git checkout
   create a new branch and start making changes (follow same steps)
+
+9.in case while pushing , we are deleting some files/ removing some lines
+  we need to push it forcefully
+  hence use
+  git push -u origin <branchname> -f
