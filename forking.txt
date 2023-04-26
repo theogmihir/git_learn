@@ -29,3 +29,19 @@ to work with a public repository , do the following
   we need to push it forcefully
   hence use
   git push -u origin <branchname> -f
+
+
+10. Now obviously , if the pull request is merged,your own fork of the   original repo is lagging behind a little as shown by the message , this repo is "x" commits behind 
+
+to sync the fork and actual repo at all times , we can 
+	git checkout main
+	git fetch --all --prune
+	git reset --hard upstream/main
+
+	git push origin main
+
+	OR
+	use the command
+		git pull upstream main
+		
+	OR use the sync forks button on GitHub
