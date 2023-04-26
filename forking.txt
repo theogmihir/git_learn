@@ -28,4 +28,4 @@ to work with a public repository , do the following
 9.in case while pushing , we are deleting some files/ removing some lines
   we need to push it forcefully
   hence use
-  git push origin <branchname> -f
+  git push -u origin <branchname> -f
