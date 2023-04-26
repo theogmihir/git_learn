@@ -10,5 +10,14 @@ rebading and dealing with merge conflicts
 
    git rebase -i <commit_code>
 
+   all commits above the given code can either be picked or squashed
+   use letter p for pick and s for squash
 
+   wherever there is p or pick,it will be kept as a commit
+   wherever there is s or squash , it will be merged into previous commit
+
+   after picking and squashing 
+
+   do esc + :x
+   and move down to type out a message
    
