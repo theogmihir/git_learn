@@ -1,0 +1,7 @@
+some advanced concepts like combining many commits into one commit
+rebading and dealing with merge conflicts
+
+1. lets say on a particular branch we have multiple commits
+   if we dont want all these commits and want to deal with a single commit then we can either
+
+   
